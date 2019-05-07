@@ -3,4 +3,4 @@
 echo "Running game "
 
 cd "$(dirname "$0")"
-java -jar "$(dirname "$0")""/target/scala-2.12/ohjelmointistudio-2-projekti-assembly-0.1.0-SNAPSHOT.jar"
+java -jar "$(dirname "$0")""/target/scala-2.12/updated2dshooterplatformer-assembly-0.1.0-SNAPSHOT.jar"

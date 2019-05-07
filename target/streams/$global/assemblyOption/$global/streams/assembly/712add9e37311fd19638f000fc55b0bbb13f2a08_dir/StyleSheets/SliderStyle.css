@@ -1,0 +1,18 @@
+
+.slider .track{
+
+    -fx-background-color: gray;
+    -fx-background-radius: 0;
+    -fx-background-inset: 50;
+}
+
+.slider .thumb{
+    -fx-background-color: blue;
+    -fx-background-radius: 20;
+    -fx-background-inset:  10;
+		-fx-border-color: gray, purple;
+		-fx-border-width: 10, 5;
+		-fx-border-radius: 15, 15;
+		
+	
+}

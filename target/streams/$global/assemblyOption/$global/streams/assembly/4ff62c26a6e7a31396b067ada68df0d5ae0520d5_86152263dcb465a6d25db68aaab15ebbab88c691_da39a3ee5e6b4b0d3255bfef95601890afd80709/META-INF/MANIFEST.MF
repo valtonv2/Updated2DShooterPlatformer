@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: 11.0.2 (Oracle Corporation 11.0.2+9)
+Built-By: JUnit Team
+Build-Date: 2019-02-07
+Build-Time: 21:10:15.697+0100
+Build-Revision: b4e64d6ab2048e31c3b690751ed674172c729455
+Specification-Title: junit-jupiter
+Specification-Version: MatchGroup(value=5.4.0, range=0..4)
+Specification-Vendor: junit.org
+Implementation-Title: junit-jupiter
+Implementation-Version: 5.4.0
+Implementation-Vendor: junit.org
+Automatic-Module-Name: org.junit.jupiter
+

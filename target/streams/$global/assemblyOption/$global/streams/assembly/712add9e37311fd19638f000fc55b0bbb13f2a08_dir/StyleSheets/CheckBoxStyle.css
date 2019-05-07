@@ -1,0 +1,14 @@
+
+.checkbox .box{
+
+    -fx-background-color: gray;
+    -fx-background-radius: 0;
+    -fx-background-inset: 50;
+}
+
+.checkbox .mark{
+    -fx-background-color: blue;
+    -fx-background-radius: 0;
+    -fx-background-inset:  0;
+
+}

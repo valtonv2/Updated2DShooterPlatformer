@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: scalafxDemos
+Implementation-Version: 8.0.181-R14-SNAPSHOT
+Built-By: valtteri
+Specification-Vendor: org.scalafx
+Specification-Title: scalafxDemos
+Implementation-Vendor-Id: org.scalafx
+Specification-Version: 8.0.181-R14-SNAPSHOT
+Implementation-URL: http://www.scalafx.org/
+Created-By: Simple Build Tool
+Build-Jdk: 1.8.0_181
+Implementation-Vendor: org.scalafx
+

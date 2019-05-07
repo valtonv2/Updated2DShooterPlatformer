@@ -1,0 +1,15 @@
+
+.progress-bar .track{
+	
+    -fx-background-color: gray;
+    -fx-background-radius: 0;
+    -fx-background-inset: 10;
+}
+
+.progress-bar .bar{
+    -fx-background-color: red;
+    -fx-background-radius: 0;
+    -fx-background-inset: 10;
+}
+
+

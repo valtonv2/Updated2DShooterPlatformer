@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: scalamock
+Implementation-Version: 4.0.0
+Specification-Vendor: org.scalamock
+Specification-Title: scalamock
+Implementation-Vendor-Id: org.scalamock
+Specification-Version: 4.0.0
+Implementation-URL: http://scalamock.org/
+Implementation-Vendor: org.scalamock
+

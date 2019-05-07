@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Specification-Title: scalafx
+Specification-Version: 11-R16
+Specification-Vendor: org.scalafx
+Implementation-Title: scalafx
+Implementation-Version: 11-R16
+Implementation-Vendor: org.scalafx
+Implementation-Vendor-Id: org.scalafx
+Implementation-URL: http://www.scalafx.org/
+Created-By: Simple Build Tool
+Built-By: Jarek Sacha
+Build-Jdk: 11
+

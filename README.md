@@ -26,6 +26,16 @@ Music
 -composed with Apples brilliant GarageBand
 
 
+How to run:
+
+Double click one of the run files inside the project directory.
+
+If this does not work
+
+1) Open command terminal
+2) Give command java -jar /your/path/‎⁨Updated2DShooterPlatformer⁩/target⁩/scala-2.12⁩/updated2dshooterplatformer-assembly-0.1.0-SNAPSHOT.jar 
+
+
 ScreenShots:
 
 <img width="801" alt="Näyttökuva 2019-3-14 kello 9 23 20" src="https://user-images.githubusercontent.com/43828011/54338734-64d1da00-463b-11e9-8b7b-73883ec10006.png">

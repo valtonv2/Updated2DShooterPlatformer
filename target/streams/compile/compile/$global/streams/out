@@ -1,0 +1,8 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/valtteri/Documents/Omat ohjelmointijutut/Scala/Updated2DShooterPlatformer/src/main/scala/PlayerHUD.scala:75:26: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Some((x: Item forSome x not in UtilityItem))[0m
+[0m[[0m[33mwarn[0m] [0m[0m    possibleContents.lift(selectedIndex - 1) match{[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere was one deprecation warning[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 13 deprecation warnings (since 8.0.60-R10)[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 14 deprecation warnings in total; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m

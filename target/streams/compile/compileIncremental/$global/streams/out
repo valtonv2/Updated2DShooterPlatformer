@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 17 sources: invalidated sources (17) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 17 Scala sources to /Users/valtteri/Documents/Omat ohjelmointijutut/Scala/Updated2DShooterPlatformer/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.2:compile for Scala 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.2:compile for Scala 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 77ce9ff8 for Scala compiler version 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes:/Users/valtteri/.sbt/boot/scala-2.12.6/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/valtteri/Documents/Omat ohjelmointijutut/Scala/Updated2DShooterPlatformer/target/scala-2.12/classes:/Users/valtteri/Documents/Omat ohjelmointijutut/Scala/Updated2DShooterPlatformer/lib/testfx-core-4.0.0-20150226.214553-8-javadoc.jar:/Users/valtteri/Documents/Omat ohjelmointijutut/Scala/Updated2DShooterPlatformer/lib/scalafx_2.12-11-R16.jar:/Users/valtteri/Documents/Omat ohjelmointijutut/Scala/Updated2DShooterPlatformer/lib/scalatest_2.12-3.0.4.jar:/Users/valtteri/Documents/Omat ohjelmointijutut/Scala/Updated2DShooterPlatformer/lib/scalafxdemos_2.10-8.0.181-R14-SNAPSHOT.jar:/Users/valtteri/Documents/Omat ohjelmointijutut/Scala/Updated2DShooterPlatformer/lib/scalactic_2.12-3.0.4.jar:/Users/valtteri/Documents/Omat ohjelmointijutut/Scala/Updated2DShooterPlatformer/lib/scala-xml_2.12-1.0.6.jar:/Users/valtteri/Documents/Omat ohjelmointijutut/Scala/Updated2DShooterPlatformer/lib/scalamock_2.12-4.0.0.jar:/Users/valtteri/Documents/Omat ohjelmointijutut/Scala/Updated2DShooterPlatformer/lib/junit-jupiter-5.4.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 14.543753252 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
