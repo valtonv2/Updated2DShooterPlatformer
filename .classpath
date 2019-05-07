@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Users/valtteri/Documents/Omat ohjelmointijutut/ohjelmointistudio-2-projekti/lib/scala-xml_2.12-1.0.6.jar"/>
+	<classpathentry kind="lib" path="/Users/valtteri/Documents/Omat ohjelmointijutut/ohjelmointistudio-2-projekti/lib/scalactic_2.12-3.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/valtteri/Documents/Omat ohjelmointijutut/ohjelmointistudio-2-projekti/lib/scalamock_2.12-4.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/valtteri/Documents/Omat ohjelmointijutut/ohjelmointistudio-2-projekti/lib/scalatest_2.12-3.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/valtteri/Documents/Omat ohjelmointijutut/ohjelmointistudio-2-projekti/lib/scalafx_2.12-11-R16.jar"/>
+	<classpathentry kind="lib" path="/Users/valtteri/Documents/Omat ohjelmointijutut/ohjelmointistudio-2-projekti/lib/junit-jupiter-5.4.0.jar"/>
+	<classpathentry kind="lib" path="/Users/valtteri/Documents/Omat ohjelmointijutut/ohjelmointistudio-2-projekti/lib/testfx-core-4.0.0-20150226.214553-8-javadoc.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

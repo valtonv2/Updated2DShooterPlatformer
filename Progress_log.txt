@@ -1,0 +1,69 @@
+Väliraportti 1
+
+Ensimmäisten kahden viikon aikana olen saanut toteutettua projektiin suunnitelman mukaisesti
+esinejärjestelmän ja pelaajan HUD:in, sekä joitain ylimääräisiä luokkia jotka paransivat koodin luettavuutta
+ja tulevat helpottamaan myöhempien projektin vaiheiden toteuttamista. Keskeisin näistä luokista on
+GamePos joka selkeytti pelimaailman osasten sijaintien käsittelyä ja mahdollisti muuttuvien ikkunakokojen
+tukemisen.
+
+Olen myös toteuttanut pelin päävalikon, taukovalikon ja pelaajan hävitessä esiin tulevan tappiovalikon,
+sekä näihin liittyvän AnimatedButton-luokan joka sallii helpon erinäköisten nappien lisäämisen ja niiden
+painamisesta seuraavien toimintojen määrittelyn.
+
+Olen testannut kaikkia lisäämiäni uusia toiminnallisuuksia pääasiassa println-tulosteiden ja pelinaikaisen
+tarkkailun avulla. Nämä toiminnallisuudet vaikuttaisivat toimivan hyvin tällä hetkellä. Pelaajan ja vihollisen
+pickup- ja drop-metodien testaamiseen toteutin myös pari yksikkötestiä. Metodit läpäisevät yksikkötestit.
+
+Yllä kuvattuja ominaisuuksia toteuttaessani esiintyi joitain NullPointerException-tyyppisiä virheitä,
+mutta sain ne lopulta ratkaistua. Useita tämän tyylisiä virheitä esiintyi uudistaessani
+pelin sijaintijärjestelmää käyttämään GamePos-luokkaa. Ehkä hankalin tähänastisista ongelmista
+oli ScalaTest-tyyppisten yksikkötestien saaminen toimintaan. Yksikkötestit eivät toimi oikein
+jos ne ajaa tavalliseen tapaan tiedoston kautta. Ne pitää ajaa peliohjelman suorituksen
+aikana. Tämä onnistuu käyttämällä testiolion excecute-metodia.
+
+Tähänastinen työmäärä on n. 35 tuntia.
+
+Olen jonkin verran edellä suunniteltua aikataulua.
+
+###########################################################################################################################################################
+
+Väliraportti 2
+
+Viimeisten kahden viikon aikana olen saanut toteutettua peliin levelSelection- ja asetus- sekä tallennusvalikot.
+Valikoihin liittyviä uusia luokkia ovat grafiikkakirjaston valmista slideria hyödyntävä GameSlider, sekä täysin oma 
+GameCheckBox-luokka. Asetusvalikon asetuksista huolehtii Settings-yksittäisolio. Sain myös toteutettua oman DWAsave 
+tiedostoformaatin, jonka voisi sanoa olevan ihmisen luettavan formaatin ja tietokoneen luettavan formaatin välimaastossa.
+Savehandler yksittäisolion saveGame- ja loadGame-metodit ovat toiminnassa, ja ne reagoivat korruptoituneisiin tiedostoihin
+heittämällä CorruptedSaveFile-exceptionin.
+
+Olen jälleen testannut uusia toimintoja println-komennon ja pelinaikaisen tarkkailun avulla. Kaikki vaikuttaisi toimivan hyvin. Tarkoituksenani on 
+kuitenkin myös kirjoittaa lisää yksikkötestejä varsinkin tallennustiedostojen toiminnan testaamiseen.
+
+LevelSelection-valikkoa toteuttaessani kohtasin joitakin outOfMemory-exceptioneita, jotka johtuivat siitä että
+yritin luoda uutta suurikokoista pelioliota aina pelaajan vaihtaessa kenttää. Kun tämän huomasi, ongelman sai ratkaistua melko helposti.
+LoadGame-metodi heitti myös välillä ehjien tiedostojen tapauksessa CorruptedSaveFileexceptionin, mutta sain myös tämän ongelman ratkaistua.
+Olin mennyt käyttämään split-metodin erottimena regexiä "|" kun oikea muoto olisi ollut '|', mikä johti ongelmiin.
+
+Tähän mennessä olen käyttänyt projektiin n. 50 tuntia.
+
+Olen kolme viikkoa aikataulun edellä.
+
+Seuraavaksi aion parannella joidenkin valikoiden ulkonäköä, testata tallennustiedostojen toimivuutta tarkemmin ja aloittaa vihollistyyppien
+suunnittelua.
+#############################################################################################################################################################
+
+Väliraportti 3
+
+Viimeisten muutaman viikon aikana en ole ehtinyt käyttämään projektiin yhtä paljon aikaa kuin normaalisti fysiikan tentin takia. Nyt tentti on
+suoritettu ja aikaa löytyy jälleen. Tentin jälkeen sain toteutettua peliin vapaan kameran tilan. Painamalla m-näppäintä pelin aikana, pelaaja saa 
+kameran täysin haltuunsa. Kameraa voi siirtää kaikkiin suuntiin ja zoomaus onnistuu. Olen myös jatkanut yksikkötestien laatimista.
+
+Olen testannut uusia toimintoja pelinaikaisen tarkkailun avulla. Kaikki näyttää toimivan kuten pitää. Tähänastiset tallennustiedostojen yksikkötestit menevät yhtä lukuunottamatta läpi.
+
+Uusia ominaisuuksia toteuttaessani en ole kohdannut erityisiä ongelmia.
+
+Tähän mennessä projektiin on kulunut aikaa n. 55 tuntia.
+
+Olen aikataulussa.
+
+Seuraavaksi jatkan yksikkötestien laatimista ja pyrin luomaan pelaajaa seuraavan vihollistyypin.
