@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="don-t-worry-about-ammo"
+		module="don-t-worry-about-ammo_2.12"
+		revision="1.0.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20200601221703"/>
+	<dependencies>
+		<module organisation="org.openjfx" name="javafx-web">
+			<revision name="14.0.1" status="release" pubdate="20200417225434" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<license name="GPLv2+CE" url="https://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2792" time="0" location="/home/valtteri/.ivy2/cache/org.openjfx/javafx-web/ivy-14.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-web/14.0.1/javafx-web-14.0.1.pom"/>
+				<caller organisation="don-t-worry-about-ammo" name="don-t-worry-about-ammo_2.12" conf="compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="javafx-web" type="jar" ext="jar" extra-classifier="linux" status="no" details="" size="32304530" time="0" location="/home/valtteri/.ivy2/cache/org.openjfx/javafx-web/jars/javafx-web-14.0.1-linux.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-web/14.0.1/javafx-web-14.0.1-linux.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-swing">
+			<revision name="14.0.1" status="release" pubdate="20200417225420" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<license name="GPLv2+CE" url="https://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/valtteri/.ivy2/cache/org.openjfx/javafx-swing/ivy-14.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-swing/14.0.1/javafx-swing-14.0.1.pom"/>
+				<caller organisation="don-t-worry-about-ammo" name="don-t-worry-about-ammo_2.12" conf="compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="javafx-swing" type="jar" ext="jar" extra-classifier="linux" status="no" details="" size="88701" time="0" location="/home/valtteri/.ivy2/cache/org.openjfx/javafx-swing/jars/javafx-swing-14.0.1-linux.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-swing/14.0.1/javafx-swing-14.0.1-linux.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-media">
+			<revision name="14.0.1" status="release" pubdate="20200417225406" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="17">
+				<license name="GPLv2+CE" url="https://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/valtteri/.ivy2/cache/org.openjfx/javafx-media/ivy-14.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-media/14.0.1/javafx-media-14.0.1.pom"/>
+				<caller organisation="org.openjfx" name="javafx-web" conf="default, compile, runtime, master" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="14.0.1"/>
+				<caller organisation="don-t-worry-about-ammo" name="don-t-worry-about-ammo_2.12" conf="compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="javafx-media" type="jar" ext="jar" extra-classifier="linux" status="no" details="" size="1436482" time="0" location="/home/valtteri/.ivy2/cache/org.openjfx/javafx-media/jars/javafx-media-14.0.1-linux.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-media/14.0.1/javafx-media-14.0.1-linux.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-fxml">
+			<revision name="14.0.1" status="release" pubdate="20200417225252" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<license name="GPLv2+CE" url="https://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2651" time="0" location="/home/valtteri/.ivy2/cache/org.openjfx/javafx-fxml/ivy-14.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/14.0.1/javafx-fxml-14.0.1.pom"/>
+				<caller organisation="don-t-worry-about-ammo" name="don-t-worry-about-ammo_2.12" conf="compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="javafx-fxml" type="jar" ext="jar" extra-classifier="linux" status="no" details="" size="126766" time="0" location="/home/valtteri/.ivy2/cache/org.openjfx/javafx-fxml/jars/javafx-fxml-14.0.1-linux.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-fxml/14.0.1/javafx-fxml-14.0.1-linux.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-controls">
+			<revision name="14.0.1" status="release" pubdate="20200417225225" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="14">
+				<license name="GPLv2+CE" url="https://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2659" time="0" location="/home/valtteri/.ivy2/cache/org.openjfx/javafx-controls/ivy-14.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-controls/14.0.1/javafx-controls-14.0.1.pom"/>
+				<caller organisation="org.openjfx" name="javafx-fxml" conf="default, compile, runtime, master" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="14.0.1"/>
+				<caller organisation="org.openjfx" name="javafx-web" conf="default, compile, runtime, master" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="14.0.1"/>
+				<caller organisation="don-t-worry-about-ammo" name="don-t-worry-about-ammo_2.12" conf="compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="javafx-controls" type="jar" ext="jar" extra-classifier="linux" status="no" details="" size="2530560" time="0" location="/home/valtteri/.ivy2/cache/org.openjfx/javafx-controls/jars/javafx-controls-14.0.1-linux.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-controls/14.0.1/javafx-controls-14.0.1-linux.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-graphics">
+			<revision name="14.0.1" status="release" pubdate="20200417225327" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="15">
+				<license name="GPLv2+CE" url="https://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2655" time="0" location="/home/valtteri/.ivy2/cache/org.openjfx/javafx-graphics/ivy-14.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/14.0.1/javafx-graphics-14.0.1.pom"/>
+				<caller organisation="org.openjfx" name="javafx-media" conf="default, compile, runtime, master" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="14.0.1"/>
+				<caller organisation="org.openjfx" name="javafx-swing" conf="default, compile, runtime, master" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="14.0.1"/>
+				<caller organisation="don-t-worry-about-ammo" name="don-t-worry-about-ammo_2.12" conf="compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="1.0.0"/>
+				<caller organisation="org.openjfx" name="javafx-controls" conf="default, compile, runtime, master" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="14.0.1"/>
+				<artifacts>
+					<artifact name="javafx-graphics" type="jar" ext="jar" extra-classifier="linux" status="no" details="" size="4957824" time="0" location="/home/valtteri/.ivy2/cache/org.openjfx/javafx-graphics/jars/javafx-graphics-14.0.1-linux.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-graphics/14.0.1/javafx-graphics-14.0.1-linux.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjfx" name="javafx-base">
+			<revision name="14.0.1" status="release" pubdate="20200417225207" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="13">
+				<license name="GPLv2+CE" url="https://openjdk.java.net/legal/gplv2+ce.html"/>
+				<metadata-artifact status="no" details="" size="2472" time="0" location="/home/valtteri/.ivy2/cache/org.openjfx/javafx-base/ivy-14.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjfx/javafx-base/14.0.1/javafx-base-14.0.1.pom"/>
+				<caller organisation="org.openjfx" name="javafx-graphics" conf="compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="14.0.1"/>
+				<caller organisation="don-t-worry-about-ammo" name="don-t-worry-about-ammo_2.12" conf="compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="javafx-base" type="jar" ext="jar" extra-classifier="linux" status="no" details="" size="751228" time="0" location="/home/valtteri/.ivy2/cache/org.openjfx/javafx-base/jars/javafx-base-14.0.1-linux.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjfx/javafx-base/14.0.1/javafx-base-14.0.1-linux.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.12">
+			<revision name="3.1.2" status="release" pubdate="20200508164643" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2239" time="87" location="/home/valtteri/.ivy2/cache/org.scalactic/scalactic_2.12/ivy-3.1.2.xml" searched="true" original-local-location="/home/valtteri/.ivy2/cache/org.scalactic/scalactic_2.12/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.1.2/scalactic_2.12-3.1.2.pom"/>
+				<caller organisation="don-t-worry-about-ammo" name="don-t-worry-about-ammo_2.12" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="scalactic_2.12" type="bundle" ext="jar" status="successful" details="" size="1578250" time="519" location="/home/valtteri/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.1.2/scalactic_2.12-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="2.0.0-M1" status="release" pubdate="20191022045417" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="https://scala.github.io/scala-xml/api/2.0.0/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3434" time="0" location="/home/valtteri/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-2.0.0-M1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.0.0-M1/scala-xml_2.12-2.0.0-M1.pom"/>
+				<caller organisation="don-t-worry-about-ammo" name="don-t-worry-about-ammo_2.12" conf="compile, runtime" rev="2.0.0-M1" rev-constraint-default="2.0.0-M1" rev-constraint-dynamic="2.0.0-M1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="bundle" ext="jar" status="no" details="" size="477951" time="0" location="/home/valtteri/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-2.0.0-M1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.0.0-M1/scala-xml_2.12-2.0.0-M1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.jupiter" name="junit-jupiter">
+			<revision name="5.6.0" status="release" pubdate="20200120220416" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Eclipse Public License v2.0" url="https://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="5284" time="0" location="/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter/ivy-5.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter/5.6.0/junit-jupiter-5.6.0.pom"/>
+				<caller organisation="don-t-worry-about-ammo" name="don-t-worry-about-ammo_2.12" conf="compile, runtime" rev="5.6.0" rev-constraint-default="5.6.0" rev-constraint-dynamic="5.6.0" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="junit-jupiter" type="jar" ext="jar" status="no" details="" size="6356" time="0" location="/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter/jars/junit-jupiter-5.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter/5.6.0/junit-jupiter-5.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.jupiter" name="junit-jupiter-engine">
+			<revision name="5.6.0" status="release" pubdate="20200120220505" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Eclipse Public License v2.0" url="https://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="5309" time="0" location="/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-engine/ivy-5.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.pom"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter" conf="default, compile, runtime, master" rev="5.6.0" rev-constraint-default="5.6.0" rev-constraint-dynamic="5.6.0" callerrev="5.6.0"/>
+				<artifacts>
+					<artifact name="junit-jupiter-engine" type="jar" ext="jar" status="no" details="" size="209368" time="0" location="/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-engine/jars/junit-jupiter-engine-5.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.platform" name="junit-platform-engine">
+			<revision name="1.6.0" status="release" pubdate="20200120220342" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Eclipse Public License v2.0" url="https://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="5304" time="0" location="/home/valtteri/.ivy2/cache/org.junit.platform/junit-platform-engine/ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.pom"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-engine" conf="compile, runtime" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="5.6.0"/>
+				<artifacts>
+					<artifact name="junit-platform-engine" type="jar" ext="jar" status="no" details="" size="174108" time="0" location="/home/valtteri/.ivy2/cache/org.junit.platform/junit-platform-engine/jars/junit-platform-engine-1.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.jupiter" name="junit-jupiter-params">
+			<revision name="5.6.0" status="release" pubdate="20200120220442" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Eclipse Public License v2.0" url="https://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="5151" time="0" location="/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-params/ivy-5.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.pom"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter" conf="default, compile, runtime, master" rev="5.6.0" rev-constraint-default="5.6.0" rev-constraint-dynamic="5.6.0" callerrev="5.6.0"/>
+				<artifacts>
+					<artifact name="junit-jupiter-params" type="jar" ext="jar" status="no" details="" size="562272" time="0" location="/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-params/jars/junit-jupiter-params-5.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.jupiter" name="junit-jupiter-api">
+			<revision name="5.6.0" status="release" pubdate="20200120220417" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Eclipse Public License v2.0" url="https://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="5291" time="0" location="/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-api/ivy-5.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.pom"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-engine" conf="compile, runtime" rev="5.6.0" rev-constraint-default="5.6.0" rev-constraint-dynamic="5.6.0" callerrev="5.6.0"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-params" conf="compile, runtime" rev="5.6.0" rev-constraint-default="5.6.0" rev-constraint-dynamic="5.6.0" callerrev="5.6.0"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter" conf="default, compile, runtime, master" rev="5.6.0" rev-constraint-default="5.6.0" rev-constraint-dynamic="5.6.0" callerrev="5.6.0"/>
+				<artifacts>
+					<artifact name="junit-jupiter-api" type="jar" ext="jar" status="no" details="" size="154033" time="0" location="/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-api/jars/junit-jupiter-api-5.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.platform" name="junit-platform-commons">
+			<revision name="1.6.0" status="release" pubdate="20200120220340" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Eclipse Public License v2.0" url="https://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="5005" time="0" location="/home/valtteri/.ivy2/cache/org.junit.platform/junit-platform-commons/ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.pom"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-api" conf="compile, runtime" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="5.6.0"/>
+				<caller organisation="org.junit.platform" name="junit-platform-engine" conf="compile, runtime" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="1.6.0"/>
+				<artifacts>
+					<artifact name="junit-platform-commons" type="jar" ext="jar" status="no" details="" size="96648" time="0" location="/home/valtteri/.ivy2/cache/org.junit.platform/junit-platform-commons/jars/junit-platform-commons-1.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.opentest4j" name="opentest4j">
+			<revision name="1.2.0" status="release" pubdate="20190606222433" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ota4j-team/opentest4j" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2515" time="0" location="/home/valtteri/.ivy2/cache/org.opentest4j/opentest4j/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-api" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="5.6.0"/>
+				<caller organisation="org.junit.platform" name="junit-platform-engine" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.6.0"/>
+				<artifacts>
+					<artifact name="opentest4j" type="jar" ext="jar" status="no" details="" size="7653" time="0" location="/home/valtteri/.ivy2/cache/org.opentest4j/opentest4j/jars/opentest4j-1.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apiguardian" name="apiguardian-api">
+			<revision name="1.1.0" status="release" pubdate="20190606220754" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/apiguardian-team/apiguardian" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2516" time="0" location="/home/valtteri/.ivy2/cache/org.apiguardian/apiguardian-api/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.pom"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-api" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="5.6.0"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-engine" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="5.6.0"/>
+				<caller organisation="org.junit.platform" name="junit-platform-engine" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.6.0"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-params" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="5.6.0"/>
+				<caller organisation="org.junit.platform" name="junit-platform-commons" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.6.0"/>
+				<artifacts>
+					<artifact name="apiguardian-api" type="jar" ext="jar" status="no" details="" size="2387" time="0" location="/home/valtteri/.ivy2/cache/org.apiguardian/apiguardian-api/jars/apiguardian-api-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.6" status="release" pubdate="20180427113633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2637" time="0" location="/home/valtteri/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6.pom"/>
+				<caller organisation="org.scalactic" name="scalactic_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.1.2"/>
+				<caller organisation="org.scalafx" name="scalafx_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="14-R19"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3607442" time="0" location="/home/valtteri/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.6.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalafx" name="scalafx_2.12">
+			<revision name="14-R19" status="release" pubdate="20200509052231" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalafx.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="BSD" url="https://github.com/scalafx/scalafx/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2927" time="0" location="/home/valtteri/.ivy2/cache/org.scalafx/scalafx_2.12/ivy-14-R19.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalafx/scalafx_2.12/14-R19/scalafx_2.12-14-R19.pom"/>
+				<caller organisation="don-t-worry-about-ammo" name="don-t-worry-about-ammo_2.12" conf="compile, runtime" rev="14-R19" rev-constraint-default="14-R19" rev-constraint-dynamic="14-R19" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="scalafx_2.12" type="jar" ext="jar" status="no" details="" size="3436330" time="0" location="/home/valtteri/.ivy2/cache/org.scalafx/scalafx_2.12/jars/scalafx_2.12-14-R19.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalafx/scalafx_2.12/14-R19/scalafx_2.12-14-R19.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.6" status="release" pubdate="20180427114006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="/home/valtteri/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
+				<caller organisation="org.scalactic" name="scalactic_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.1.2"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.12.6"/>
+				<caller organisation="org.scalafx" name="scalafx_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="14-R19"/>
+				<caller organisation="don-t-worry-about-ammo" name="don-t-worry-about-ammo_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="1.0.0"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.0.0-M1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5267302" time="0" location="/home/valtteri/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

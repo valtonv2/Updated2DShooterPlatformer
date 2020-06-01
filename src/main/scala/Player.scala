@@ -357,7 +357,7 @@ class Player(startX:Int, startY:Int, val game:Game) extends Actor with UsesAnima
      
      
      //Pause-screen
-      if(event.code == KeyCode.ESCAPE){
+      if(event.code == KeyCode.Escape){
       GameWindow.clock.stop()
       GameWindow.menuClock.start()
       if(Menus.fullScreenStatus == false) GameWindow.stage.scene = Menus.PauseMenu.scene 
@@ -387,12 +387,12 @@ class Player(startX:Int, startY:Int, val game:Game) extends Actor with UsesAnima
        this.game.camera.ySpeed = 50
        }
      
-      if(event.code == KeyCode.UP && this.game.isInmapMode){
+      if(event.code == KeyCode.Up && this.game.isInmapMode){
      this.game.camera.zInSpeed = 0.05
    
      }
 
-     if(event.code == KeyCode.DOWN && this.game.isInmapMode){
+     if(event.code == KeyCode.Down && this.game.isInmapMode){
      this.game.camera.zOutSpeed = 0.05
     
      } 
@@ -432,27 +432,27 @@ class Player(startX:Int, startY:Int, val game:Game) extends Actor with UsesAnima
      PlayerHUD.equipmentBox.moveRight
      }
      
-     if(event.code == KeyCode.DIGIT1){
+     if(event.code == KeyCode.Digit1){
      PlayerHUD.weaponHud.selectBox(0)
      }
     
-     if(event.code == KeyCode.DIGIT2){
+     if(event.code == KeyCode.Digit2){
      PlayerHUD.weaponHud.selectBox(1)
      }
        
-     if(event.code == KeyCode.DIGIT3){
+     if(event.code == KeyCode.Digit3){
      PlayerHUD.weaponHud.selectBox(2)
      }
         
-     if(event.code == KeyCode.DIGIT4){
+     if(event.code == KeyCode.Digit4){
      PlayerHUD.weaponHud.selectBox(3)
      }
          
-     if(event.code == KeyCode.DIGIT5){
+     if(event.code == KeyCode.Digit5){
      PlayerHUD.weaponHud.selectBox(4)
      }
           
-     if(event.code == KeyCode.DIGIT6){
+     if(event.code == KeyCode.Digit6){
      PlayerHUD.weaponHud.selectBox(5)
      }
      
@@ -461,15 +461,15 @@ class Player(startX:Int, startY:Int, val game:Game) extends Actor with UsesAnima
      }
      
       if(event.code == KeyCode.O){
-      GameTests.execute
+      //GameTests.execute()
      }
      
-     if(event.code == KeyCode.UP){
+     if(event.code == KeyCode.Up){
      this.game.camera.zInSpeed = 0
     
      }
 
-     if(event.code == KeyCode.DOWN){
+     if(event.code == KeyCode.Down){
      this.game.camera.zOutSpeed = 0
     
      }

@@ -36,7 +36,7 @@ object Menus{
         
         GameWindow.menuClock.stop()
         GameWindow.clock.start()
-         GameWindow.currentGame.fullImage.cursor.value_=(Cursor.NONE)
+         GameWindow.currentGame.fullImage.cursor.value_=(Cursor.None)
         if(!fullScreenStatus) GameWindow.stage.scene = GameWindow.currentGame.fullImage 
         else{GameWindow.stage.scene = GameWindow.currentGame.fullImage; GameWindow.stage.setFullScreen(true) }
        

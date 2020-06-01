@@ -44,7 +44,7 @@ object GameWindow extends JFXApp {
     
     try{
     
-   GameWindow.currentGame.fullImage.cursor.value_=(Cursor.NONE)
+   GameWindow.currentGame.fullImage.cursor.value_=(Cursor.None)
   if(!currentGame.isOver){
     
     currentGame.camera.update

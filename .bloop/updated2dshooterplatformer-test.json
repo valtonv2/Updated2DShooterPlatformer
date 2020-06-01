@@ -1,0 +1,380 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "updated2dshooterplatformer-test",
+        "directory": "/home/valtteri/Programming/Scala/Updated2DShooterPlatformer",
+        "workspaceDir": "/home/valtteri/Programming/Scala/Updated2DShooterPlatformer",
+        "sources": [
+            "/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/test/scala-2.12",
+            "/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/test/scala",
+            "/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/test/java",
+            "/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "updated2dshooterplatformer"
+        ],
+        "classpath": [
+            "/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/.bloop/updated2dshooterplatformer/scala-2.12/classes",
+            "/home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-library.jar",
+            "/home/valtteri/.ivy2/cache/org.scalafx/scalafx_2.12/jars/scalafx_2.12-14-R19.jar",
+            "/home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-reflect.jar",
+            "/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter/jars/junit-jupiter-5.6.0.jar",
+            "/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-api/jars/junit-jupiter-api-5.6.0.jar",
+            "/home/valtteri/.ivy2/cache/org.apiguardian/apiguardian-api/jars/apiguardian-api-1.1.0.jar",
+            "/home/valtteri/.ivy2/cache/org.opentest4j/opentest4j/jars/opentest4j-1.2.0.jar",
+            "/home/valtteri/.ivy2/cache/org.junit.platform/junit-platform-commons/jars/junit-platform-commons-1.6.0.jar",
+            "/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-params/jars/junit-jupiter-params-5.6.0.jar",
+            "/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-engine/jars/junit-jupiter-engine-5.6.0.jar",
+            "/home/valtteri/.ivy2/cache/org.junit.platform/junit-platform-engine/jars/junit-platform-engine-1.6.0.jar",
+            "/home/valtteri/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-2.0.0-M1.jar",
+            "/home/valtteri/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.1.2.jar",
+            "/home/valtteri/.ivy2/cache/org.openjfx/javafx-base/jars/javafx-base-14.0.1-linux.jar",
+            "/home/valtteri/.ivy2/cache/org.openjfx/javafx-controls/jars/javafx-controls-14.0.1-linux.jar",
+            "/home/valtteri/.ivy2/cache/org.openjfx/javafx-graphics/jars/javafx-graphics-14.0.1-linux.jar",
+            "/home/valtteri/.ivy2/cache/org.openjfx/javafx-fxml/jars/javafx-fxml-14.0.1-linux.jar",
+            "/home/valtteri/.ivy2/cache/org.openjfx/javafx-media/jars/javafx-media-14.0.1-linux.jar",
+            "/home/valtteri/.ivy2/cache/org.openjfx/javafx-swing/jars/javafx-swing-14.0.1-linux.jar",
+            "/home/valtteri/.ivy2/cache/org.openjfx/javafx-web/jars/javafx-web-14.0.1-linux.jar",
+            "/home/valtteri/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.1.2.jar",
+            "/home/valtteri/.ivy2/cache/org.scalamock/scalamock_2.12/jars/scalamock_2.12-4.0.0.jar"
+        ],
+        "out": "/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/.bloop/updated2dshooterplatformer",
+        "classesDir": "/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/.bloop/updated2dshooterplatformer/scala-2.12/test-classes",
+        "resources": [
+            "/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/test/resources",
+            "/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.6",
+            "options": [
+                "-unchecked",
+                "-deprecation",
+                "-Xcheckinit",
+                "-encoding",
+                "utf8",
+                "-feature"
+            ],
+            "jars": [
+                "/home/valtteri/.sbt/boot/scala-2.12.6/lib/jline.jar",
+                "/home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-xml_2.12.jar",
+                "/home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-reflect.jar",
+                "/home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-library.jar",
+                "/home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-compiler.jar"
+            ],
+            "analysis": "/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/target/streams/test/bloopAnalysisOut/$global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-11-openjdk-amd64",
+                "options": [
+                    "-Duser.dir=/home/valtteri/Programming/Scala/Updated2DShooterPlatformer"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.6",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/valtteri/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalafx",
+                    "name": "scalafx_2.12",
+                    "version": "14-R19",
+                    "artifacts": [
+                        {
+                            "name": "scalafx_2.12",
+                            "path": "/home/valtteri/.ivy2/cache/org.scalafx/scalafx_2.12/jars/scalafx_2.12-14-R19.jar"
+                        },
+                        {
+                            "name": "scalafx_2.12",
+                            "classifier": "sources",
+                            "path": "/home/valtteri/.ivy2/cache/org.scalafx/scalafx_2.12/srcs/scalafx_2.12-14-R19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.6",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-reflect.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/valtteri/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter",
+                    "version": "5.6.0",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter",
+                            "path": "/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter/jars/junit-jupiter-5.6.0.jar"
+                        },
+                        {
+                            "name": "junit-jupiter",
+                            "classifier": "sources",
+                            "path": "/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter/srcs/junit-jupiter-5.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-api",
+                    "version": "5.6.0",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-api",
+                            "path": "/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-api/jars/junit-jupiter-api-5.6.0.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-api",
+                            "classifier": "sources",
+                            "path": "/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-api/srcs/junit-jupiter-api-5.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apiguardian",
+                    "name": "apiguardian-api",
+                    "version": "1.1.0",
+                    "artifacts": [
+                        {
+                            "name": "apiguardian-api",
+                            "path": "/home/valtteri/.ivy2/cache/org.apiguardian/apiguardian-api/jars/apiguardian-api-1.1.0.jar"
+                        },
+                        {
+                            "name": "apiguardian-api",
+                            "classifier": "sources",
+                            "path": "/home/valtteri/.ivy2/cache/org.apiguardian/apiguardian-api/srcs/apiguardian-api-1.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.opentest4j",
+                    "name": "opentest4j",
+                    "version": "1.2.0",
+                    "artifacts": [
+                        {
+                            "name": "opentest4j",
+                            "path": "/home/valtteri/.ivy2/cache/org.opentest4j/opentest4j/jars/opentest4j-1.2.0.jar"
+                        },
+                        {
+                            "name": "opentest4j",
+                            "classifier": "sources",
+                            "path": "/home/valtteri/.ivy2/cache/org.opentest4j/opentest4j/srcs/opentest4j-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-commons",
+                    "version": "1.6.0",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-commons",
+                            "path": "/home/valtteri/.ivy2/cache/org.junit.platform/junit-platform-commons/jars/junit-platform-commons-1.6.0.jar"
+                        },
+                        {
+                            "name": "junit-platform-commons",
+                            "classifier": "sources",
+                            "path": "/home/valtteri/.ivy2/cache/org.junit.platform/junit-platform-commons/srcs/junit-platform-commons-1.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-params",
+                    "version": "5.6.0",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-params",
+                            "path": "/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-params/jars/junit-jupiter-params-5.6.0.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-params",
+                            "classifier": "sources",
+                            "path": "/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-params/srcs/junit-jupiter-params-5.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-engine",
+                    "version": "5.6.0",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-engine",
+                            "path": "/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-engine/jars/junit-jupiter-engine-5.6.0.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-engine",
+                            "classifier": "sources",
+                            "path": "/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-engine/srcs/junit-jupiter-engine-5.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-engine",
+                    "version": "1.6.0",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-engine",
+                            "path": "/home/valtteri/.ivy2/cache/org.junit.platform/junit-platform-engine/jars/junit-platform-engine-1.6.0.jar"
+                        },
+                        {
+                            "name": "junit-platform-engine",
+                            "classifier": "sources",
+                            "path": "/home/valtteri/.ivy2/cache/org.junit.platform/junit-platform-engine/srcs/junit-platform-engine-1.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.12",
+                    "version": "2.0.0-M1",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.12",
+                            "path": "/home/valtteri/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-2.0.0-M1.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.12",
+                            "classifier": "sources",
+                            "path": "/home/valtteri/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-2.0.0-M1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_2.12",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_2.12",
+                            "path": "/home/valtteri/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.1.2.jar"
+                        },
+                        {
+                            "name": "scalactic_2.12",
+                            "classifier": "sources",
+                            "path": "/home/valtteri/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.12",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_2.12",
+                            "path": "/home/valtteri/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.1.2.jar"
+                        },
+                        {
+                            "name": "scalatest_2.12",
+                            "classifier": "sources",
+                            "path": "/home/valtteri/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalamock",
+                    "name": "scalamock_2.12",
+                    "version": "4.0.0",
+                    "artifacts": [
+                        {
+                            "name": "scalamock_2.12",
+                            "path": "/home/valtteri/.ivy2/cache/org.scalamock/scalamock_2.12/jars/scalamock_2.12-4.0.0.jar"
+                        },
+                        {
+                            "name": "scalamock_2.12",
+                            "classifier": "sources",
+                            "path": "/home/valtteri/.ivy2/cache/org.scalamock/scalamock_2.12/srcs/scalamock_2.12-4.0.0-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

@@ -1,8 +1,43 @@
-[0m[[0m[33mwarn[0m] [0m[0m/Users/valtteri/Documents/Omat ohjelmointijutut/Scala/Updated2DShooterPlatformer/src/main/scala/PlayerHUD.scala:75:26: match may not be exhaustive.[0m
-[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Some((x: Item forSome x not in UtilityItem))[0m
-[0m[[0m[33mwarn[0m] [0m[0m    possibleContents.lift(selectedIndex - 1) match{[0m
-[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mthere was one deprecation warning[0m
-[0m[[0m[33mwarn[0m] [0m[0mthere were 13 deprecation warnings (since 8.0.60-R10)[0m
-[0m[[0m[33mwarn[0m] [0m[0mthere were 14 deprecation warnings in total; re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/main/scala/UnitTests.scala:1:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/main/scala/UnitTests.scala:2:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/main/scala/UnitTests.scala:17:26: not found: type FlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mobject GameTests extends FlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/main/scala/UnitTests.scala:17:40: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mobject GameTests extends FlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/main/scala/Player.scala:464:17: value execute is not a member of object GameTests[0m
+[0m[[0m[31merror[0m] [0m[0m      GameTests.execute()[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/main/scala/UnitTests.scala:51:18: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m "Method PickUp" should "pick up item given as a parameter correctly when the user is either enemy  or player" in{[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/main/scala/UnitTests.scala:76:17: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  "Method Drop" should "behave correctly when used by an enemy" in{[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/main/scala/UnitTests.scala:86:22: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  "Method Load Game" should "work properly with a normal save file" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/main/scala/UnitTests.scala:112:22: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  "Method Load Game" should "work properly when savefile is corrupted" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/main/scala/UnitTests.scala:114:5: not found: value assertThrows[0m
+[0m[[0m[31merror[0m] [0m[0m    assertThrows[CorruptedSaveFile]{                            //Virheellinen lohkon nimi[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/main/scala/UnitTests.scala:118:5: not found: value assertThrows[0m
+[0m[[0m[31merror[0m] [0m[0m    assertThrows[CorruptedSaveFile]{                            //Puuttuva kaksoispiste[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/main/scala/UnitTests.scala:122:5: not found: value assertThrows[0m
+[0m[[0m[31merror[0m] [0m[0m    assertThrows[CorruptedSaveFile]{                            //Puuttuva pystyviiva[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/main/scala/UnitTests.scala:126:5: not found: value assertThrows[0m
+[0m[[0m[31merror[0m] [0m[0m    assertThrows[CorruptedSaveFile]{                            //Puuttuva hashtag lohkojen välistä[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/main/scala/UnitTests.scala:130:5: not found: value assertThrows[0m
+[0m[[0m[31merror[0m] [0m[0m    assertThrows[CorruptedSaveFile]{                            //FILEEND Poissa[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m14 errors found[0m
