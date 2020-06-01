@@ -25,8 +25,6 @@ Menus
 Music
 -composed with Apples brilliant GarageBand
 
-PÖÖPÖÖ EETU KÄVI TÄÄLLÄ
-
 
 How to run:
 
