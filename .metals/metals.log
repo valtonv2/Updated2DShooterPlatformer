@@ -905,3 +905,379 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 2020.06.01 22:20:19 INFO  time: compiled updated2dshooterplatformer-test in 0.42s
 2020.06.01 22:20:30 WARN  unsupported Scala 2.12.6
 2020.06.01 22:20:30 WARN  unsupported Scala 2.12.6
+2020.06.01 22:28:28 INFO  skipping build import with status 'Installed'
+2020.06.01 23:06:47 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.06.02 10:01:06 INFO  started: Metals version 0.9.0 in workspace '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer'
+2020.06.02 10:01:06 INFO  time: initialize in 0.79s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2693461253136051154/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.06.02 10:01:07 INFO  skipping build import with status 'Installed'
+2020.06.02 10:01:07 INFO  no build target: using presentation compiler with only scala-library
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.06.02 10:01:09 WARN  no build target for: /home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/test/scala/UnitTests.scala
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.0-RC1-229-b7c15aa9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/.bloop'...
+[0m[32m[D][0m Loading project from '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/.bloop/updated2dshooterplatformer-test.json'
+[0m[32m[D][0m Loading project from '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/.bloop/updated2dshooterplatformer.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.6.
+[0m[32m[D][0m   => /home/valtteri/.sbt/boot/scala-2.12.6/lib/jline.jar
+[0m[32m[D][0m   => /home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-compiler.jar
+[0m[32m[D][0m   => /home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-library.jar
+[0m[32m[D][0m   => /home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-reflect.jar
+[0m[32m[D][0m   => /home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-xml_2.12.jar
+[0m[32m[D][0m Skipped configuration of SemanticDB in unsupported 2.12.6 projects
+[0m[32m[D][0m Loading previous analysis for 'updated2dshooterplatformer-test' from '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/target/streams/test/bloopAnalysisOut/$global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'updated2dshooterplatformer' from '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/target/streams/compile/bloopAnalysisOut/$global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher2693461253136051154/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher2693461253136051154/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.02 10:01:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/valtteri/.cache/metals/bsp.trace.json
+2020.06.02 10:01:09 INFO  time: connected to build server in 2.62s
+2020.06.02 10:01:09 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.02 10:01:11 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.02 10:01:11 INFO  time: indexed workspace in 1.23s
+2020.06.02 10:01:11 WARN  unsupported Scala 2.12.6
+2020.06.02 10:01:39 WARN  unsupported Scala 2.12.6
+2020.06.02 10:01:39 WARN  unsupported Scala 2.12.6
+2020.06.02 10:01:39 WARN  unsupported Scala 2.12.6
+2020.06.02 10:01:39 WARN  unsupported Scala 2.12.6
+2020.06.02 10:01:39 WARN  unsupported Scala 2.12.6
+2020.06.02 10:02:18 WARN  unsupported Scala 2.12.6
+2020.06.02 10:02:18 WARN  unsupported Scala 2.12.6
+2020.06.02 10:02:24 WARN  unsupported Scala 2.12.6
+2020.06.02 10:02:24 WARN  unsupported Scala 2.12.6
+2020.06.02 10:02:24 WARN  unsupported Scala 2.12.6
+2020.06.02 10:02:24 WARN  unsupported Scala 2.12.6
+2020.06.02 10:04:53 WARN  unsupported Scala 2.12.6
+2020.06.02 10:04:53 WARN  unsupported Scala 2.12.6
+2020.06.02 10:05:43 WARN  unsupported Scala 2.12.6
+2020.06.02 10:05:43 WARN  unsupported Scala 2.12.6
+2020.06.02 10:05:43 WARN  unsupported Scala 2.12.6
+2020.06.02 10:05:43 WARN  unsupported Scala 2.12.6
+2020.06.02 10:05:43 WARN  unsupported Scala 2.12.6
+2020.06.02 10:05:43 WARN  unsupported Scala 2.12.6
+2020.06.02 10:06:01 WARN  unsupported Scala 2.12.6
+2020.06.02 10:06:10 WARN  unsupported Scala 2.12.6
+2020.06.02 10:06:27 WARN  unsupported Scala 2.12.6
+2020.06.02 10:06:30 WARN  unsupported Scala 2.12.6
+2020.06.02 10:06:37 WARN  unsupported Scala 2.12.6
+2020.06.02 10:06:37 WARN  unsupported Scala 2.12.6
+2020.06.02 10:06:37 WARN  unsupported Scala 2.12.6
+2020.06.02 10:06:37 WARN  unsupported Scala 2.12.6
+2020.06.02 10:06:37 WARN  unsupported Scala 2.12.6
+2020.06.02 10:06:40 WARN  unsupported Scala 2.12.6
+2020.06.02 10:06:49 WARN  unsupported Scala 2.12.6
+2020.06.02 10:06:49 WARN  unsupported Scala 2.12.6
+2020.06.02 10:07:07 WARN  unsupported Scala 2.12.6
+2020.06.02 10:08:04 WARN  unsupported Scala 2.12.6
+2020.06.02 10:08:04 WARN  unsupported Scala 2.12.6
+2020.06.02 10:08:07 WARN  unsupported Scala 2.12.6
+2020.06.02 10:08:07 WARN  unsupported Scala 2.12.6
+2020.06.02 10:08:11 WARN  unsupported Scala 2.12.6
+2020.06.02 10:08:11 WARN  unsupported Scala 2.12.6
+2020.06.02 10:08:17 WARN  unsupported Scala 2.12.6
+2020.06.02 10:08:17 WARN  unsupported Scala 2.12.6
+2020.06.02 10:08:17 WARN  unsupported Scala 2.12.6
+2020.06.02 10:08:17 WARN  unsupported Scala 2.12.6
+2020.06.02 10:08:17 WARN  unsupported Scala 2.12.6
+2020.06.02 10:08:54 WARN  unsupported Scala 2.12.6
+2020.06.02 10:09:39 WARN  unsupported Scala 2.12.6
+2020.06.02 10:09:41 WARN  unsupported Scala 2.12.6
+2020.06.02 10:09:46 WARN  unsupported Scala 2.12.6
+2020.06.02 10:10:09 WARN  unsupported Scala 2.12.6
+2020.06.02 10:59:25 WARN  unsupported Scala 2.12.6
+2020.06.02 10:59:25 WARN  unsupported Scala 2.12.6
+2020.06.02 10:59:25 WARN  unsupported Scala 2.12.6
+2020.06.02 10:59:32 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.06.02 11:56:41 INFO  started: Metals version 0.9.0 in workspace '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer'
+2020.06.02 11:56:42 INFO  time: initialize in 0.8s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher10411522663143449199/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.06.02 11:56:43 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher10411522663143449199/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher10411522663143449199/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.02 11:56:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/valtteri/.cache/metals/bsp.trace.json
+2020.06.02 11:56:43 INFO  time: connected to build server in 0.18s
+2020.06.02 11:56:43 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.02 11:56:44 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.02 11:56:44 INFO  time: indexed workspace in 1.7s
+2020.06.02 11:56:53 WARN  unsupported Scala 2.12.6
+2020.06.02 11:56:53 INFO  no build target: using presentation compiler with only scala-library
+2020.06.02 11:56:54 WARN  unsupported Scala 2.12.6
+2020.06.02 11:56:54 WARN  unsupported Scala 2.12.6
+2020.06.02 11:56:54 WARN  unsupported Scala 2.12.6
+2020.06.02 11:56:59 WARN  unsupported Scala 2.12.6
+2020.06.02 11:57:12 WARN  unsupported Scala 2.12.6
+2020.06.02 11:57:52 WARN  unsupported Scala 2.12.6
+2020.06.02 11:57:52 WARN  unsupported Scala 2.12.6
+2020.06.02 11:57:56 WARN  unsupported Scala 2.12.6
+2020.06.02 11:57:56 WARN  unsupported Scala 2.12.6
+2020.06.02 11:57:56 WARN  unsupported Scala 2.12.6
+2020.06.02 11:57:56 WARN  unsupported Scala 2.12.6
+2020.06.02 11:57:56 WARN  unsupported Scala 2.12.6
+2020.06.02 11:57:57 WARN  unsupported Scala 2.12.6
+2020.06.02 11:57:56 WARN  unsupported Scala 2.12.6
+2020.06.02 11:57:56 WARN  unsupported Scala 2.12.6
+2020.06.02 11:57:58 WARN  unsupported Scala 2.12.6
+2020.06.02 11:57:58 WARN  unsupported Scala 2.12.6
+2020.06.02 11:57:58 WARN  unsupported Scala 2.12.6
+2020.06.02 11:57:58 WARN  unsupported Scala 2.12.6
+2020.06.02 11:57:58 WARN  unsupported Scala 2.12.6
+2020.06.02 11:58:02 WARN  unsupported Scala 2.12.6
+2020.06.02 11:58:28 WARN  unsupported Scala 2.12.6
+2020.06.02 11:58:55 WARN  unsupported Scala 2.12.6
+2020.06.02 11:58:55 WARN  unsupported Scala 2.12.6
+2020.06.02 11:59:50 WARN  unsupported Scala 2.12.6
+2020.06.02 11:59:50 WARN  unsupported Scala 2.12.6
+2020.06.02 12:00:06 WARN  unsupported Scala 2.12.6
+2020.06.02 12:00:06 WARN  unsupported Scala 2.12.6
+2020.06.02 12:01:07 WARN  unsupported Scala 2.12.6
+2020.06.02 12:01:07 WARN  unsupported Scala 2.12.6
+2020.06.02 12:01:23 WARN  unsupported Scala 2.12.6
+2020.06.02 12:01:25 WARN  unsupported Scala 2.12.6
+2020.06.02 12:01:25 WARN  unsupported Scala 2.12.6
+2020.06.02 12:01:27 WARN  unsupported Scala 2.12.6
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.06.02 15:56:45 INFO  started: Metals version 0.9.0 in workspace '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer'
+2020.06.02 15:56:45 INFO  time: initialize in 0.82s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher12082738434899250149/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.06.02 15:56:49 INFO  skipping build import with status 'Installed'
+2020.06.02 15:56:49 INFO  no build target: using presentation compiler with only scala-library
+Waiting for the bsp connection to come up...
+2020.06.02 15:56:51 WARN  no build target for: /home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/main/scala/GameMenus.scala
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.0-RC1-229-b7c15aa9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/.bloop'...
+[0m[32m[D][0m Loading project from '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/.bloop/updated2dshooterplatformer.json'
+[0m[32m[D][0m Loading project from '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/.bloop/updated2dshooterplatformer-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.6.
+[0m[32m[D][0m   => /home/valtteri/.sbt/boot/scala-2.12.6/lib/jline.jar
+[0m[32m[D][0m   => /home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-compiler.jar
+[0m[32m[D][0m   => /home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-library.jar
+[0m[32m[D][0m   => /home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-reflect.jar
+[0m[32m[D][0m   => /home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-xml_2.12.jar
+[0m[32m[D][0m Skipped configuration of SemanticDB in unsupported 2.12.6 projects
+[0m[32m[D][0m Loading previous analysis for 'updated2dshooterplatformer-test' from '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/target/streams/test/bloopAnalysisOut/$global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'updated2dshooterplatformer' from '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/target/streams/compile/bloopAnalysisOut/$global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher12082738434899250149/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher12082738434899250149/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.02 15:56:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/valtteri/.cache/metals/bsp.trace.json
+2020.06.02 15:56:52 INFO  time: connected to build server in 2.9s
+2020.06.02 15:56:52 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.02 15:56:53 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.02 15:56:53 INFO  time: indexed workspace in 1.24s
+2020.06.02 15:57:08 WARN  unsupported Scala 2.12.6
+2020.06.02 15:57:08 WARN  unsupported Scala 2.12.6
+2020.06.02 15:57:08 WARN  unsupported Scala 2.12.6
+2020.06.02 15:57:08 WARN  unsupported Scala 2.12.6
+2020.06.02 15:57:10 WARN  unsupported Scala 2.12.6
+2020.06.02 15:58:21 WARN  unsupported Scala 2.12.6
+2020.06.02 15:58:21 WARN  unsupported Scala 2.12.6
+2020.06.02 15:58:21 WARN  unsupported Scala 2.12.6
+2020.06.02 15:58:21 WARN  unsupported Scala 2.12.6
+2020.06.02 15:58:21 WARN  unsupported Scala 2.12.6
+2020.06.02 16:36:38 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.06.03 12:28:52 INFO  started: Metals version 0.9.0 in workspace '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer'
+2020.06.03 12:28:53 INFO  time: initialize in 0.77s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher1695054041293984609/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.06.03 12:28:53 INFO  skipping build import with status 'Installed'
+2020.06.03 12:28:53 INFO  no build target: using presentation compiler with only scala-library
+Waiting for the bsp connection to come up...
+2020.06.03 12:28:55 WARN  no build target for: /home/valtteri/Programming/Scala/Updated2DShooterPlatformer/src/main/scala/Level.scala
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.0-RC1-229-b7c15aa9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/.bloop'...
+[0m[32m[D][0m Loading project from '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/.bloop/updated2dshooterplatformer-test.json'
+[0m[32m[D][0m Loading project from '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/.bloop/updated2dshooterplatformer.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.6.
+[0m[32m[D][0m   => /home/valtteri/.sbt/boot/scala-2.12.6/lib/jline.jar
+[0m[32m[D][0m   => /home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-compiler.jar
+[0m[32m[D][0m   => /home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-library.jar
+[0m[32m[D][0m   => /home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-reflect.jar
+[0m[32m[D][0m   => /home/valtteri/.sbt/boot/scala-2.12.6/lib/scala-xml_2.12.jar
+[0m[32m[D][0m Skipped configuration of SemanticDB in unsupported 2.12.6 projects
+[0m[32m[D][0m Loading previous analysis for 'updated2dshooterplatformer-test' from '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/target/streams/test/bloopAnalysisOut/$global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Loading previous analysis for 'updated2dshooterplatformer' from '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/target/streams/compile/bloopAnalysisOut/$global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher1695054041293984609/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher1695054041293984609/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.03 12:28:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/valtteri/.cache/metals/bsp.trace.json
+2020.06.03 12:28:56 INFO  time: connected to build server in 2.56s
+2020.06.03 12:28:56 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.03 12:28:57 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.03 12:28:57 INFO  time: indexed workspace in 1.18s
+2020.06.03 12:28:57 WARN  unsupported Scala 2.12.6
+2020.06.03 12:30:17 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.06.03 19:36:19 INFO  started: Metals version 0.9.0 in workspace '/home/valtteri/Programming/Scala/Updated2DShooterPlatformer'
+2020.06.03 19:36:20 INFO  time: initialize in 0.85s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher12029072057679353161/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.06.03 19:36:20 INFO  skipping build import with status 'Installed'
+2020.06.03 19:36:20 INFO  no build target: using presentation compiler with only scala-library
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher12029072057679353161/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher12029072057679353161/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.03 19:36:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/valtteri/.cache/metals/bsp.trace.json
+2020.06.03 19:36:20 INFO  time: connected to build server in 0.23s
+2020.06.03 19:36:20 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.03 19:36:22 WARN  unsupported Scala 2.12.6
+2020.06.03 19:36:22 WARN  unsupported Scala 2.12.6
+2020.06.03 19:36:22 WARN  unsupported Scala 2.12.6
+2020.06.03 19:36:22 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.03 19:36:22 INFO  time: indexed workspace in 1.84s
+2020.06.03 19:36:22 WARN  unsupported Scala 2.12.6
+2020.06.03 19:39:09 WARN  unsupported Scala 2.12.6
+2020.06.03 19:39:09 WARN  unsupported Scala 2.12.6
+2020.06.03 19:39:09 WARN  unsupported Scala 2.12.6
+2020.06.03 19:39:09 WARN  unsupported Scala 2.12.6
+2020.06.03 19:39:14 WARN  unsupported Scala 2.12.6
+2020.06.03 19:39:21 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals10907340997420085256/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.06.03 19:39:24 INFO  [info] Loading global plugins from /home/valtteri/.sbt/1.0/plugins
+2020.06.03 19:39:25 INFO  [info] Loading project definition from /home/valtteri/Programming/Scala/Updated2DShooterPlatformer/project/project
+2020.06.03 19:39:25 INFO  [info] Loading settings for project updated2dshooterplatformer-build from assembly.sbt,metals.sbt ...
+2020.06.03 19:39:25 INFO  [info] Loading project definition from /home/valtteri/Programming/Scala/Updated2DShooterPlatformer/project
+2020.06.03 19:39:27 INFO  [info] Loading settings for project updated2dshooterplatformer from plugins.sbt,build.sbt ...
+2020.06.03 19:39:27 INFO  [info] Set current project to Don't worry about ammo (in build file:/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/)
+2020.06.03 19:39:27 INFO  [info] Updating ...
+2020.06.03 19:39:57 INFO  [warn] 	module not found: com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4
+2020.06.03 19:39:57 INFO  [warn] ==== local: tried
+2020.06.03 19:39:57 INFO  [warn]   /home/valtteri/.ivy2/local/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.12/sbt_1.0/5.2.4/ivys/ivy.xml
+2020.06.03 19:39:57 INFO  [warn] ==== public: tried
+2020.06.03 19:39:57 INFO  [warn]   https://repo1.maven.org/maven2/com/typesafe/sbteclipse/sbteclipse-plugin_2.12_1.0/5.2.4/sbteclipse-plugin-5.2.4.pom
+2020.06.03 19:39:57 INFO  [warn] ==== local-preloaded-ivy: tried
+2020.06.03 19:39:57 INFO  [warn]   /home/valtteri/.sbt/preloaded/com.typesafe.sbteclipse/sbteclipse-plugin/5.2.4/ivys/ivy.xml
+2020.06.03 19:39:57 INFO  [warn] ==== local-preloaded: tried
+2020.06.03 19:39:57 INFO  [warn]   file:////home/valtteri/.sbt/preloaded/com/typesafe/sbteclipse/sbteclipse-plugin_2.12_1.0/5.2.4/sbteclipse-plugin-5.2.4.pom
+2020.06.03 19:39:57 INFO  [warn] ==== sonatype-snapshots: tried
+2020.06.03 19:39:57 INFO  [warn]   https://oss.sonatype.org/content/repositories/snapshots/com/typesafe/sbteclipse/sbteclipse-plugin_2.12_1.0/5.2.4/sbteclipse-plugin-5.2.4.pom
+2020.06.03 19:39:57 INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+2020.06.03 19:39:57 INFO  [warn] 	::          UNRESOLVED DEPENDENCIES         ::
+2020.06.03 19:39:57 INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+2020.06.03 19:39:57 INFO  [warn] 	:: com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4: not found
+2020.06.03 19:39:57 INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+2020.06.03 19:39:57 INFO  [warn] 
+2020.06.03 19:39:57 INFO  [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+2020.06.03 19:39:57 INFO  [warn] 		com.typesafe.sbteclipse:sbteclipse-plugin:5.2.4 (scalaVersion=2.12, sbtVersion=1.0)
+2020.06.03 19:39:57 INFO  [warn] 
+2020.06.03 19:39:57 INFO  [warn] 	Note: Unresolved dependencies path:
+2020.06.03 19:39:57 INFO  [warn] 		com.typesafe.sbteclipse:sbteclipse-plugin:5.2.4 (scalaVersion=2.12, sbtVersion=1.0) (/home/valtteri/Programming/Scala/Updated2DShooterPlatformer/plugins.sbt#L1-2)
+2020.06.03 19:39:57 INFO  [warn] 		  +- don-t-worry-about-ammo:don-t-worry-about-ammo_2.12:1.0.0
+2020.06.03 19:39:57 INFO  [error] sbt.librarymanagement.ResolveException: unresolved dependency: com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4: not found
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.resolveAndRetrieve(IvyActions.scala:332)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.$anonfun$updateEither$1(IvyActions.scala:208)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$Module.$anonfun$withModule$1(Ivy.scala:239)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.$anonfun$withIvy$1(Ivy.scala:204)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.sbt$internal$librarymanagement$IvySbt$$action$1(Ivy.scala:70)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$$anon$3.call(Ivy.scala:77)
+2020.06.03 19:39:57 INFO  [error] 	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:95)
+2020.06.03 19:39:57 INFO  [error] 	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:80)
+2020.06.03 19:39:57 INFO  [error] 	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:99)
+2020.06.03 19:39:57 INFO  [error] 	at xsbt.boot.Using$.withResource(Using.scala:10)
+2020.06.03 19:39:57 INFO  [error] 	at xsbt.boot.Using$.apply(Using.scala:9)
+2020.06.03 19:39:57 INFO  [error] 	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:60)
+2020.06.03 19:39:57 INFO  [error] 	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:50)
+2020.06.03 19:39:57 INFO  [error] 	at xsbt.boot.Locks$.apply0(Locks.scala:31)
+2020.06.03 19:39:57 INFO  [error] 	at xsbt.boot.Locks$.apply(Locks.scala:28)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withDefaultLogger(Ivy.scala:77)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:199)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:196)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$Module.withModule(Ivy.scala:238)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.updateEither(IvyActions.scala:193)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.librarymanagement.ivy.IvyDependencyResolution.update(IvyDependencyResolution.scala:20)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:56)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:45)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:93)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:68)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$19(LibraryManagement.scala:106)
+2020.06.03 19:39:57 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:224)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:106)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:89)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:149)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:120)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask$5(Defaults.scala:2550)
+2020.06.03 19:39:57 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:44)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.std.Transform$$anon$4.work(System.scala:67)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.Execute.work(Execute.scala:278)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+2020.06.03 19:39:57 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+2020.06.03 19:39:57 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2020.06.03 19:39:57 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+2020.06.03 19:39:57 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2020.06.03 19:39:57 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2020.06.03 19:39:57 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2020.06.03 19:39:57 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+2020.06.03 19:39:57 INFO  [error] (update) sbt.librarymanagement.ResolveException: unresolved dependency: com.typesafe.sbteclipse#sbteclipse-plugin;5.2.4: not found
+2020.06.03 19:39:57 INFO  [error] Total time: 30 s, completed Jun 3, 2020, 7:39:57 PM
+2020.06.03 19:39:57 INFO  build tool exit: 1
+2020.06.03 19:39:58 INFO  time: ran 'sbt bloopInstall' in 36s
+2020.06.03 19:39:58 INFO  disconnected: build server
+2020.06.03 19:39:58 ERROR sbt command failed: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals10907340997420085256/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher12523049356071284658/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher12523049356071284658/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher12523049356071284658/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.03 19:39:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/valtteri/.cache/metals/bsp.trace.json
+2020.06.03 19:39:58 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.03 19:39:58 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.03 19:39:58 INFO  time: indexed workspace in 0.83s
+2020.06.03 19:39:59 WARN  unsupported Scala 2.12.6

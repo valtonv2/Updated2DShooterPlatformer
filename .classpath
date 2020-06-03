@@ -1,14 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="/Users/valtteri/Documents/Omat ohjelmointijutut/ohjelmointistudio-2-projekti/lib/scala-xml_2.12-1.0.6.jar"/>
-	<classpathentry kind="lib" path="/Users/valtteri/Documents/Omat ohjelmointijutut/ohjelmointistudio-2-projekti/lib/scalactic_2.12-3.0.4.jar"/>
-	<classpathentry kind="lib" path="/Users/valtteri/Documents/Omat ohjelmointijutut/ohjelmointistudio-2-projekti/lib/scalamock_2.12-4.0.0.jar"/>
-	<classpathentry kind="lib" path="/Users/valtteri/Documents/Omat ohjelmointijutut/ohjelmointistudio-2-projekti/lib/scalatest_2.12-3.0.4.jar"/>
-	<classpathentry kind="lib" path="/Users/valtteri/Documents/Omat ohjelmointijutut/ohjelmointistudio-2-projekti/lib/scalafx_2.12-11-R16.jar"/>
-	<classpathentry kind="lib" path="/Users/valtteri/Documents/Omat ohjelmointijutut/ohjelmointistudio-2-projekti/lib/junit-jupiter-5.4.0.jar"/>
-	<classpathentry kind="lib" path="/Users/valtteri/Documents/Omat ohjelmointijutut/ohjelmointistudio-2-projekti/lib/testfx-core-4.0.0-20150226.214553-8-javadoc.jar"/>
-	<classpathentry kind="output" path="bin"/>
+  <classpathentry kind="src" path="src/main/scala"/>
+  <classpathentry kind="src" path="src/main/resources"/>
+  <classpathentry kind="src" path="src/test/scala"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"></classpathentry>
+  <classpathentry sourcepath="/home/valtteri/.ivy2/cache/org.scalafx/scalafx_2.12/srcs/scalafx_2.12-14-R19-sources.jar" kind="lib" path="/home/valtteri/.ivy2/cache/org.scalafx/scalafx_2.12/jars/scalafx_2.12-14-R19.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/valtteri/.ivy2/cache/org.scalafx/scalafx_2.12/docs/scalafx_2.12-14-R19-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter/srcs/junit-jupiter-5.6.0-sources.jar" kind="lib" path="/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter/jars/junit-jupiter-5.6.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter/docs/junit-jupiter-5.6.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-api/srcs/junit-jupiter-api-5.6.0-sources.jar" kind="lib" path="/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-api/jars/junit-jupiter-api-5.6.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-api/docs/junit-jupiter-api-5.6.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/valtteri/.ivy2/cache/org.apiguardian/apiguardian-api/srcs/apiguardian-api-1.1.0-sources.jar" kind="lib" path="/home/valtteri/.ivy2/cache/org.apiguardian/apiguardian-api/jars/apiguardian-api-1.1.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/valtteri/.ivy2/cache/org.apiguardian/apiguardian-api/docs/apiguardian-api-1.1.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/valtteri/.ivy2/cache/org.opentest4j/opentest4j/srcs/opentest4j-1.2.0-sources.jar" kind="lib" path="/home/valtteri/.ivy2/cache/org.opentest4j/opentest4j/jars/opentest4j-1.2.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/valtteri/.ivy2/cache/org.opentest4j/opentest4j/docs/opentest4j-1.2.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/valtteri/.ivy2/cache/org.junit.platform/junit-platform-commons/srcs/junit-platform-commons-1.6.0-sources.jar" kind="lib" path="/home/valtteri/.ivy2/cache/org.junit.platform/junit-platform-commons/jars/junit-platform-commons-1.6.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/valtteri/.ivy2/cache/org.junit.platform/junit-platform-commons/docs/junit-platform-commons-1.6.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-params/srcs/junit-jupiter-params-5.6.0-sources.jar" kind="lib" path="/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-params/jars/junit-jupiter-params-5.6.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-params/docs/junit-jupiter-params-5.6.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-engine/srcs/junit-jupiter-engine-5.6.0-sources.jar" kind="lib" path="/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-engine/jars/junit-jupiter-engine-5.6.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/valtteri/.ivy2/cache/org.junit.jupiter/junit-jupiter-engine/docs/junit-jupiter-engine-5.6.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/valtteri/.ivy2/cache/org.junit.platform/junit-platform-engine/srcs/junit-platform-engine-1.6.0-sources.jar" kind="lib" path="/home/valtteri/.ivy2/cache/org.junit.platform/junit-platform-engine/jars/junit-platform-engine-1.6.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/valtteri/.ivy2/cache/org.junit.platform/junit-platform-engine/docs/junit-platform-engine-1.6.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/valtteri/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-2.0.0-M1-sources.jar" kind="lib" path="/home/valtteri/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-2.0.0-M1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/valtteri/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/docs/scala-xml_2.12-2.0.0-M1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/valtteri/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.1.2-sources.jar" kind="lib" path="/home/valtteri/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.1.2.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/valtteri/.ivy2/cache/org.scalactic/scalactic_2.12/docs/scalactic_2.12-3.1.2-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="lib" path="/home/valtteri/.ivy2/cache/org.openjfx/javafx-base/jars/javafx-base-14.0.1-linux.jar"/>
+  <classpathentry kind="lib" path="/home/valtteri/.ivy2/cache/org.openjfx/javafx-controls/jars/javafx-controls-14.0.1-linux.jar"/>
+  <classpathentry kind="lib" path="/home/valtteri/.ivy2/cache/org.openjfx/javafx-graphics/jars/javafx-graphics-14.0.1-linux.jar"/>
+  <classpathentry kind="lib" path="/home/valtteri/.ivy2/cache/org.openjfx/javafx-fxml/jars/javafx-fxml-14.0.1-linux.jar"/>
+  <classpathentry kind="lib" path="/home/valtteri/.ivy2/cache/org.openjfx/javafx-media/jars/javafx-media-14.0.1-linux.jar"/>
+  <classpathentry kind="lib" path="/home/valtteri/.ivy2/cache/org.openjfx/javafx-swing/jars/javafx-swing-14.0.1-linux.jar"/>
+  <classpathentry kind="lib" path="/home/valtteri/.ivy2/cache/org.openjfx/javafx-web/jars/javafx-web-14.0.1-linux.jar"/>
+  <classpathentry sourcepath="/home/valtteri/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.1.2-sources.jar" kind="lib" path="/home/valtteri/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.1.2.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/valtteri/.ivy2/cache/org.scalatest/scalatest_2.12/docs/scalatest_2.12-3.1.2-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/valtteri/.ivy2/cache/org.scalamock/scalamock_2.12/srcs/scalamock_2.12-4.0.0-sources.jar" kind="lib" path="/home/valtteri/.ivy2/cache/org.scalamock/scalamock_2.12/jars/scalamock_2.12-4.0.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/valtteri/.ivy2/cache/org.scalamock/scalamock_2.12/docs/scalamock_2.12-4.0.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
 </classpath>

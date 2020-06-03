@@ -4,7 +4,6 @@ name := "Don't worry about ammo"
 // Project version
 version := "1.0.0"
 
-
 // Version of Scala used by the project
 scalaVersion := "2.12.6"
 

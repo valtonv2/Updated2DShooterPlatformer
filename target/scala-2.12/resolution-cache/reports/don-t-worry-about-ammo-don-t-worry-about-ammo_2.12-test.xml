@@ -7,7 +7,7 @@
 		revision="1.0.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20200601221703"/>
+		date="20200603194222"/>
 	<dependencies>
 		<module organisation="org.scalamock" name="scalamock_2.12">
 			<revision name="4.0.0" status="release" pubdate="20171029143353" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalamock.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
@@ -22,12 +22,12 @@
 			</revision>
 		</module>
 		<module organisation="org.scalatest" name="scalatest_2.12">
-			<revision name="3.1.2" status="release" pubdate="20200508173013" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+			<revision name="3.1.2" status="release" pubdate="20200508173013" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
 				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="3654" time="33" location="/home/valtteri/.ivy2/cache/org.scalatest/scalatest_2.12/ivy-3.1.2.xml" searched="true" original-local-location="/home/valtteri/.ivy2/cache/org.scalatest/scalatest_2.12/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.1.2/scalatest_2.12-3.1.2.pom"/>
+				<metadata-artifact status="no" details="" size="3883" time="0" location="/home/valtteri/.ivy2/cache/org.scalatest/scalatest_2.12/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.1.2/scalatest_2.12-3.1.2.pom"/>
 				<caller organisation="don-t-worry-about-ammo" name="don-t-worry-about-ammo_2.12" conf="test, compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="1.0.0"/>
 				<artifacts>
-					<artifact name="scalatest_2.12" type="bundle" ext="jar" status="successful" details="" size="6836389" time="937" location="/home/valtteri/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.1.2.jar">
+					<artifact name="scalatest_2.12" type="bundle" ext="jar" status="no" details="" size="6836389" time="0" location="/home/valtteri/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.1.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.1.2/scalatest_2.12-3.1.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -125,13 +125,13 @@
 			</revision>
 		</module>
 		<module organisation="org.scalactic" name="scalactic_2.12">
-			<revision name="3.1.2" status="release" pubdate="20200508164643" resolver="public" artresolver="public" homepage="http://www.scalatest.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="12">
+			<revision name="3.1.2" status="release" pubdate="20200508164643" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="12">
 				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2239" time="87" location="/home/valtteri/.ivy2/cache/org.scalactic/scalactic_2.12/ivy-3.1.2.xml" searched="true" original-local-location="/home/valtteri/.ivy2/cache/org.scalactic/scalactic_2.12/ivy-3.1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.1.2/scalactic_2.12-3.1.2.pom"/>
+				<metadata-artifact status="no" details="" size="2970" time="0" location="/home/valtteri/.ivy2/cache/org.scalactic/scalactic_2.12/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.1.2/scalactic_2.12-3.1.2.pom"/>
 				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="3.1.2"/>
 				<caller organisation="don-t-worry-about-ammo" name="don-t-worry-about-ammo_2.12" conf="test, compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="1.0.0"/>
 				<artifacts>
-					<artifact name="scalactic_2.12" type="bundle" ext="jar" status="successful" details="" size="1578250" time="519" location="/home/valtteri/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.1.2.jar">
+					<artifact name="scalactic_2.12" type="bundle" ext="jar" status="no" details="" size="1578250" time="0" location="/home/valtteri/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.1.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.1.2/scalactic_2.12-3.1.2.jar"/>
 					</artifact>
 				</artifacts>
