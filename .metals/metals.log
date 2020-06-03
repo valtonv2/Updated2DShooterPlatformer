@@ -1281,3 +1281,4 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 2020.06.03 19:39:58 WARN  Could not find java sources in None. Java symbols will not be available.
 2020.06.03 19:39:58 INFO  time: indexed workspace in 0.83s
 2020.06.03 19:39:59 WARN  unsupported Scala 2.12.6
+2020.06.03 19:57:41 WARN  unsupported Scala 2.12.6
